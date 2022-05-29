@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="Game-6_GuessNumber.css">
+    <link rel="shortcut icon" href="fc.png" type="image/x-icon">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="background:url('https://static.studyladder.com/cdn/materials-library/sl-plus/800/37613-highlowBackgroundImage-1584073055.png'); background: cover; " >
+    <div class="loader">
+        <div></div>
+    </div>
+    <div class="contenttt">
+   <div class="container">
+       <h3>I am thinking of a number between 1-100.</h3>
+       <h3>Can you guess it?</h3>
+
+       <input type="text" placeholder="Num" id="guess"><br>
+       <button onclick="play()" id="my_btn">GUESS</button>
+
+       <p id="message1">No. Of Guesses: 0</p>
+       <p id="message2">Guessed Numbers are: None</p>
+       <p id="message3"></p>
+        <div class="hidden">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+   </div>
+   </div>
+   <!--Script-->
+   
+<script>
+
+  var loader = document.getElementById("preloader");
+
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+  })
+
+   $(window).on('load',function(){
+            $(".loader").fadeOut(1000);
+            $(".contenttt").fadeIn(1000);
+        });
+
+</script>
+   <script src="Game-6_GuessNumber.js"></script>
+</body>
+</html>

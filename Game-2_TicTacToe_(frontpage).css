@@ -102,7 +102,7 @@ button {
 
 header {
     height: 100vh;
-    background: url("background.webp") center no-repeat fixed;
+    background: url("https://cdn.wallpapersafari.com/62/86/jbm92i.jpg") center no-repeat fixed;
     background-size: cover;
     position: relative; 
     overflow: hidden;
@@ -135,8 +135,8 @@ header h1{
 }
 
 .h-glass{
-    background: url("background.webp") center no-repeat fixed;
-    font-size:229px;
+    background: url("https://cdn.wallpapersafari.com/62/86/jbm92i.jpg") center no-repeat fixed;
+    font-size:220px;
     background-size:cover ;
     color: transparent;
     background-clip: text;
@@ -168,27 +168,27 @@ header h1{
 }
 
 .icon1:hover{
-  color:hotpink;
+  color:lightblue;
 }
 
 
 .icon2:hover{
-  color:blue;
+  color:lightgreen;
 }
 
 
 .icon3:hover{
-  color:blue;
+  color:lightpink;
 }
 
 
 .icon4:hover{
-  color:red;
+  color:lightgoldenrodyellow;
 }
 
 
 .icon5:hover{
-  color:blue;
+  color:lightseagreen;
 }
 
 
@@ -197,7 +197,7 @@ header h1{
 
 .h-regular{
     color: #fff;
-    font-size: 245pxx;
+    font-size: 180px;
     top:60%;
     left:42%;
     animation: text2 0.8s ease-in forwards;
@@ -437,14 +437,11 @@ ul {
 }
 
 
-
-
-
 .hidden{
   display:none;
 }
 
- 
+
 .contenttt{
   display: none;
 }
@@ -475,4 +472,8 @@ ul {
         transform: rotate(360deg);
     }
 }
+
+
+
+
 

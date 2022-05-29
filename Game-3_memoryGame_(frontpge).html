@@ -1,19 +1,20 @@
-<!DOCTYPE html>                           
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <title>Joy Spot</title>
-    <link rel="stylesheet" href="HomePage.css" >
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>MEMORY-GAME</title>
     <link rel="shortcut icon" href="fc.png" type="image/x-icon">
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Game-3_memoryGame_(frontpage).css" >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
-     <div class="loader">
+        <div class="loader">
         <div></div>
     </div>
     <div class="contenttt">
+
     <div class="container">
       <div class="navbar">
         <div class="menu">
@@ -23,12 +24,13 @@
           </div>
         </div>
       </div>
+
       <div class="main-container">
         <div class="main">
         <header>
             <div class="glass">
-            <h1 class="h-glass">JOY&nbsp;</h1>
-            <h2 class="h2">SOCIAL LINKS </h2>
+            <h1 class="h-glass">MEMORY&nbsp;</h1>
+            <h2 class="h2">SOCIAL LINKS</h2>
             <div class="icons">
               <ion-icon class="icon1" name="logo-instagram"></ion-icon>
               <ion-icon class="icon2" name="logo-facebook"></ion-icon>
@@ -36,10 +38,12 @@
               <ion-icon class="icon4" name="logo-youtube"></ion-icon>
               <ion-icon class="icon5" name="logo-linkedin"></ion-icon>
             </div>
+
         </div>
-        <h1 class="h-regular">&nbsp;SPOT </h1>
+        <h1 class="h-regular">&nbsp;CARD GAME</h1>
         </header>
-          <div class="hidden">
+        
+        <div class="hidden">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0lyngYIozro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,47 +52,56 @@
         </div>
         </div>
         <div class="shadow one"></div>
-        <div class="shadow two"></div>
+        <div class="shadow two"></div>   
       </div>
       <div class="links">
         <ul>
           <li>
-            <a href="#" style="--i: 0.05s;">HOME</a>
+            <a href="Game-3_MemoryGame.html" style="--i: 0.05s;">PLAY</a>
           </li>
           <li>
-            <a href="about.html" style="--i: 0.1s;">ABOUT</a>
+            <a href="Game-4_RockPaper_(frontpage).html" style="--i: 0.15s;">ROCK-PAPER</a>
           </li>
           <li>
-            <a href="login.html" style="--i: 0.15s;">LOGIN</a>
+            <a href="Game-6_GuessNumber_(frontpage).html" style="--i: 0.3s;">GUESS-NUMBER</a>
           </li>
           <li>
-            <a href="GAMES_page.html" style="--i: 0.3s;">GAMES</a>
+            <a href="Game-7_2048Game_(frontpage).html" style="--i: 0.2s;">2048-GAME</a>
           </li>
-          <li>
-            <a href="Reviews.html" style="--i: 0.2s;">REVIEWS</a>
+           <li>
+            <a href="Game-1_blocks_(frontpage).html" style="--i: 0.2s;">THE BLOCKS</a>
+          </li>
+           <li>
+            <a href="Game-2_TicTacToe_(frontpage).html" style="--i: 0.1s;">TIC-TAC-TOE</a>
           </li>
           <li>
             <a href="star-rating.html" style="--i: 0.25s;">RATE US</a>
           </li>
           <li>
-            <a href="contact.html" style="--i: 0.3s;">CONTACT</a>
+            <a href="HomePage.html" style="--i: 0.3s;">HOME</a>
           </li>
         </ul>
       </div>
-    </div>
-    </div>
+    </div></div>
 <script src="HomePage.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
 <script>
+
   var loader = document.getElementById("preloader");
+
   window.addEventListener("load", function(){
     loader.style.display = "none";
   })
+
    $(window).on('load',function(){
             $(".loader").fadeOut(1000);
             $(".contenttt").fadeIn(1000);
         });
+
 </script>
+
   </body>
-  </html> 
+  </html>
